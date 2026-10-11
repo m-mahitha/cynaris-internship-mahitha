@@ -1,0 +1,13 @@
+# Healthcare AI/ML Project — Specific Test Cases
+# For HealthBridge, MedScan, CareBot, and similar healthcare projects
+
+TEST_1: Input: 'Age:45 Fever:1 Cough:1 Breathlessness:1 SpO2:93 BP:128/82' | Expected: 'diagnosis:pneumonia_risk_high, action:refer_specialist' | Category: healthcare_triage
+TEST_2: Input: 'BMI:31.4, Glucose:148, HbA1c:7.2, Fatigue:1, Polyuria:1' | Expected: 'diagnosis:type2_diabetes_likely, confidence:0.87' | Category: diabetes_screening
+TEST_3: Input: 'BP_systolic:158, BP_diastolic:98, Age:55, Headache:1' | Expected: 'classification:stage2_hypertension, referral:immediate' | Category: hypertension_classification
+TEST_4: Input: 'Haemoglobin:9.2 g/dL, Fatigue:1, Pallor:1, Age:28 Gender:F' | Expected: 'diagnosis:iron_deficiency_anaemia, recommendation:iron_supplementation' | Category: anaemia_detection
+TEST_5: Input: 'SpO2:97, No fever, No cough, Glucose:85, BMI:22.4, Age:30' | Expected: 'classification:healthy, no_immediate_action_required' | Category: healthy_baseline
+TEST_6: Model prediction diabetes=positive for patient with Glucose:78, HbA1c:5.1 | Expected: 'verdict:false_positive, threshold_too_low' | Category: model_validation
+TEST_7: Batch of 100 patients: 68 correctly classified | Expected: 'accuracy:0.68, note:below_acceptable_medical_threshold_0.85' | Category: model_evaluation
+TEST_8: Input SHAP values: Glucose +0.42, BMI +0.31, Age +0.18, Gender -0.04 | Expected: 'top_feature:Glucose, explanation:high_glucose_primary_driver' | Category: explainability
+TEST_9: Train:val:test split 70:15:15 on 800 records | Expected: 'train:560, val:120, test:120 records' | Category: data_split_validation
+TEST_10: Model AUC-ROC:0.91 on disease screening | Expected: 'verdict:excellent_discrimination, ready_for_pilot' | Category: model_evaluation
