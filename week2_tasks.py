@@ -845,6 +845,18 @@ elif day == 4:
 elif day == 5:
     run_day5()
 
+# Week 2: Feature Engineering and Data Preprocessing
+
+## Completed Tasks
+#- Day 1: Feature Engineering and Encoding
+#- Day 2: Feature Scaling and Selection
+#- Day 3: Handling Imbalanced Data using SMOTE
+# - Day 4: Train-Test Split and Cross-Validation
+#- Day 5: End-to-End Preprocessing Pipeline
+
+#The tasks were implemented in Python, and the corresponding outputs were saved in separate folders.
+
+
 
 
    
