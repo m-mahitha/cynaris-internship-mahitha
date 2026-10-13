@@ -1,0 +1,5 @@
+Search,Best CV Accuracy,Test Accuracy,Precision,Recall,F1 Score,Best Parameters
+SVM - Grid Search,0.9780219780219781,0.9824561403508771,0.9861111111111112,0.9861111111111112,0.9861111111111112,"{'model__C': 0.1, 'model__gamma': 'scale', 'model__kernel': 'linear'}"
+KNN - Grid Search,0.9714285714285715,0.9736842105263158,0.96,1.0,0.9795918367346939,"{'model__metric': 'euclidean', 'model__n_neighbors': 7, 'model__weights': 'uniform'}"
+SVM - Random Search,0.9780219780219781,0.9824561403508771,0.9861111111111112,0.9861111111111112,0.9861111111111112,"{'model__kernel': 'rbf', 'model__gamma': 0.001, 'model__C': 100}"
+KNN - Random Search,0.9714285714285715,0.9736842105263158,0.96,1.0,0.9795918367346939,"{'model__metric': 'euclidean', 'model__n_neighbors': 7, 'model__weights': 'uniform'}"
