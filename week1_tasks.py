@@ -489,12 +489,51 @@ print("\n==========================================")
 print("DAY 4 PRACTICAL TASKS COMPLETED")
 print("==========================================")
 
-# Day 4: Compact EDA Summary
-print("\n========== DAY 4 SUMMARY ==========")
-print("Dataset shape:", df.shape)
-print("Missing values:", df.isnull().sum().sum())
-print("Duplicate rows:", df.duplicated().sum())
-print("\nNumerical columns:", numerical_columns)
-print("\nCategorical columns:", categorical_columns)
-print("\nCorrelation matrix:")
-print(correlation_matrix.round(2))
+# Day 4: EDA Observations and Narrative
+
+# Five observations:
+# 1. The cleaned dataset contains 800 rows and 17 columns.
+# 2. There are no missing values in the cleaned dataset.
+# 3. There are no duplicate rows after cleaning.
+# 4. Numerical columns include age, BMI, blood pressure,
+#    SpO2, glucose, and symptom-related fields.
+# 5. Categorical fields include Patient_ID, Gender, and Diagnosis.
+#    Numerical distributions and correlations should be checked
+#    to identify unusual values and relationships.
+
+# EDA Narrative:
+# The healthcare dataset contains 800 records and 17 columns.
+# Exploratory Data Analysis was performed to understand its
+# structure, data types, distributions, and numerical relationships.
+# The dataset information and descriptive statistics help identify
+# the range, average, and variation of numerical measurements.
+# The missing-value check returned zero, and no duplicate rows
+# remained after cleaning. Numerical fields include age, BMI,
+# blood pressure measurements, oxygen saturation, glucose, and
+# symptom-related variables. Patient ID, gender, and diagnosis
+# are categorical fields in the current analysis.
+#
+# Distribution plots were generated to inspect the spread of
+# numerical variables, while a correlation heatmap was created
+# to examine relationships between numerical features. These
+# visualizations can help identify unusual values and possible
+# associations that may need further investigation. However,
+# correlation does not prove causation. Patient IDs should not
+# be treated as meaningful medical predictors simply because
+# they are stored as numbers. The diagnosis field should also
+# be examined separately because it represents the outcome
+# category. Before using this dataset for machine learning,
+# the values should be checked against their definitions and
+# plausible medical ranges. Any suspicious values should be
+# investigated rather than removed automatically. Overall,
+# the dataset appears complete after cleaning, but its medical
+# validity and suitability for modelling require further checks.
+
+# Week 1: NumPy, Pandas, data cleaning, and exploratory data analysis completed.
+
+# Week 1 Final Checklist
+# - NumPy and Pandas practice
+# - Data cleaning and preprocessing
+# - Exploratory Data Analysis (EDA)
+# - Data visualization
+# - Results and observations documented
