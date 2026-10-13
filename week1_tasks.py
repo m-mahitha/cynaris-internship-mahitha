@@ -530,3 +530,10 @@ print("==========================================")
 # validity and suitability for modelling require further checks.
 
 # Week 1: NumPy, Pandas, data cleaning, and exploratory data analysis completed.
+
+# Week 1 Final Checklist
+# - NumPy and Pandas practice
+# - Data cleaning and preprocessing
+# - Exploratory Data Analysis (EDA)
+# - Data visualization
+# - Results and observations documented
