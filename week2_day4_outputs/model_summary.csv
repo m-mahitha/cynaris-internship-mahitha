@@ -1,0 +1,4 @@
+Metric,Score
+Mean CV Accuracy,0.8484375
+CV Std Dev,0.00625
+Test Accuracy,0.83125

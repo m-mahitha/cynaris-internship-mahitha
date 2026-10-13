@@ -1,0 +1,15 @@
+Feature,Selected,RFE_Rank
+Fatigue,True,1
+Headache,True,1
+Nausea,True,1
+SpO2,True,1
+Glucose_mg_dL,True,1
+Cough,False,2
+Chest_Pain,False,3
+Fever,False,4
+Breathlessness,False,5
+BMI,False,6
+Age,False,7
+BP_Diastolic,False,8
+HbA1c,False,9
+BP_Systolic,False,10

@@ -1,0 +1,11 @@
+
+Feature Scaling:
+StandardScaler standardizes features.
+MinMaxScaler maps values to a fixed range.
+RobustScaler uses median and interquartile range.
+Normalizer scales each row.
+
+Feature Selection:
+SelectKBest compares ANOVA F-scores and chi-square scores.
+RFE selects features recursively using Logistic Regression.
+Rankings are model- and dataset-dependent.

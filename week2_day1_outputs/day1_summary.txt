@@ -1,0 +1,18 @@
+WEEK 2 - DAY 1: FEATURE ENGINEERING
+Dataset shape: (800, 17)
+Categorical columns: ['Patient_ID', 'Gender', 'Diagnosis']
+Numerical columns: ['Age', 'Fever', 'Cough', 'Fatigue', 'Breathlessness', 'Chest_Pain', 'Nausea', 'Headache', 'BMI', 'BP_Systolic', 'BP_Diastolic', 'SpO2', 'Glucose_mg_dL', 'HbA1c']
+
+Encoding:
+- LabelEncoder: integer codes; may imply a false order.
+- OneHotEncoder: binary columns; can increase dimensionality.
+- OrdinalEncoder: use when a meaningful category order is defined.
+
+Scaling:
+- StandardScaler: mean 0 and standard deviation 1.
+- MinMaxScaler: scales values to 0-1.
+- RobustScaler: uses median and interquartile range.
+
+Feature selection:
+SelectKBest ranks numerical predictors by their ANOVA F-score.
+Association does not prove causation.
