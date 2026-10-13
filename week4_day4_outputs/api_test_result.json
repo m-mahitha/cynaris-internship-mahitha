@@ -1,0 +1,8 @@
+{
+    "prediction": 0,
+    "predicted_class": "malignant",
+    "probabilities": {
+        "malignant": 0.9999999411175814,
+        "benign": 5.8882418607058566e-08
+    }
+}

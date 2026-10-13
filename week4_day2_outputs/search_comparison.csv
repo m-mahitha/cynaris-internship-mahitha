@@ -1,0 +1,3 @@
+Search Method,Best CV Accuracy,Test Accuracy,Best Parameters
+Grid Search,0.9824175824175825,0.9824561403508771,"{'model__C': 0.1, 'model__solver': 'liblinear'}"
+Randomized Search,0.9824175824175825,0.9824561403508771,"{'model__C': np.float64(0.16949768237884735), 'model__solver': 'liblinear'}"
